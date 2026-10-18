@@ -22,14 +22,4 @@ body { margin: 0; background: var(--bg, #fff8ee); }
 .unit-toggle { display: flex; border: 2px solid var(--outline); border-radius: 10px; overflow: hidden; }
 .unit-toggle button { min-width: 34px; min-height: 28px; border: 0; background: #fff; font: inherit; font-size: 0.8rem; font-weight: 700; color: var(--outline); padding: 0 6px; }
 .unit-toggle button[aria-pressed='true'] { background: var(--water); }
-.icon-btn { flex: none; width: 40px; height: 40px; display: grid; place-items: center; border: 3px solid var(--outline); border-radius: 12px; background: #fff; color: var(--outline); cursor: pointer; }
-dialog.feedback { width: min(92vw, 440px); border: 3px solid var(--outline); border-radius: 18px; padding: 16px; background: var(--bg); color: var(--outline); font-family: inherit; }
-dialog.feedback::backdrop { background: rgb(43 27 20 / 0.5); }
-.feedback h2 { margin: 0 0 8px; font-size: 1.2rem; }
-.feedback label { display: block; margin-top: 10px; font-weight: 700; }
-.feedback textarea, .feedback input:not(.hp) { width: 100%; box-sizing: border-box; padding: 8px; border: 3px solid var(--outline); border-radius: 12px; font: inherit; background: #fff; }
-.feedback .hp { position: absolute; left: -9999px; }
-.feedback .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 12px; }
-.feedback .actions button { min-height: 44px; padding: 0 16px; border: 3px solid var(--outline); border-radius: 14px; background: #fff; font: inherit; font-weight: 700; color: var(--outline); }
-.feedback .actions button[type='submit'] { background: var(--water); }
 .note { margin: 16px 0 0; font-size: 0.8rem; text-align: center; opacity: 0.7; }

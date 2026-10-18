@@ -2,7 +2,6 @@ import { Canvas } from '@react-three/fiber';
 import { useEffect, useState } from 'react';
 import { DEFAULTS, simulate, type Input } from '../model/simulate.ts';
 import { cssVars } from '../styles/tokens.ts';
-import Feedback from './Feedback.tsx';
 import PortafilterScene, { CAMERA } from './PortafilterScene.tsx';
 import '../styles/scene.css';
 
@@ -41,7 +40,6 @@ export default function PuckScene() {
     <div className="app" style={cssVars}>
       <header className="title">
         <h1>Espresso Dialer</h1>
-        <Feedback />
       </header>
       <div className="stage">
         {gl ? (
